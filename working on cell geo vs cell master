@@ -1,0 +1,8 @@
+new cells for cell assignment water areas: Do not use the one in the new cells for cell assignment geo. Replace it with the one in cell geo. 
+
+
+I noticed that some water area cells in cell geo are 0 but when checked in cell master it is not zero but has a value. 
+But upon comparing the cell geo from cell master: all new cells for cell assignment cells in cell geo and cell master 
+have areas which are not zero. All the cells have water area values that are very close to each other, if you compare cell geo water areas
+with cell master water areas. You must use the water areas in cell geo instead of in cell master though. It is better that way. The areas in cell master
+seem to be rounded to integers and probably not good for computation. It is probably only for representation.  
